@@ -8,6 +8,7 @@ namespace PDot.UnitTests.Problems.Problem20
     [Test]
     public void TestUsage() {
       var runner = new Problem20Runner();
+      Assert.That(runner.Execute(10), Is.EqualTo(3628800));
     }
   }
 }
