@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PDot{
-  class Program {
-    static void Main(string[] args) {
-      var problem = args[0];
-      
-
-    }
+namespace PDot.UnitTests
+{
+    public class Class1
+    {
     }
 }
