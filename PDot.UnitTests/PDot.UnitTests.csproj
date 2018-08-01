@@ -65,5 +65,11 @@
     <Compile Include="Problems\Problem20\Problem20Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PDot.Problems\PDot.Problems.csproj">
+      <Project>{AA38DC5F-04F8-42DA-95E1-3A48FCE5FDA1}</Project>
+      <Name>PDot.Problems</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using PDot.Problems.Problems.Problem20;
 
 namespace PDot.UnitTests.Problems.Problem20
 {
@@ -6,7 +7,7 @@ namespace PDot.UnitTests.Problems.Problem20
   class Problem20Tests  {
     [Test]
     public void TestUsage() {
-      Assert.That(true, Is.False);
+      var runner = new Problem20Runner();
     }
   }
 }
