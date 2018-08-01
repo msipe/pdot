@@ -45,9 +45,6 @@
     <Reference Include="nunitlite">
       <HintPath>lib\nunitlite.dll</HintPath>
     </Reference>
-    <Reference Include="PDot.Problems">
-      <HintPath>..\PDot.Problems\bin\Debug\PDot.Problems.dll</HintPath>
-    </Reference>
     <Reference Include="slow-nunit-tests">
       <HintPath>lib\slow-nunit-tests.dll</HintPath>
     </Reference>
