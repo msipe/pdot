@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PDot.UnitTests
+namespace Pdot.Problems
 {
     public class Class1
     {
