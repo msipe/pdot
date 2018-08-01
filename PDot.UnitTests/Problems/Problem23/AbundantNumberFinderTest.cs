@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 namespace PDot.UnitTests.Problems.Problem23
 {
   [TestFixture]
-  public class Problem23Tests {
+  class AbundantNumberFinderTest {
     [Test]
-    public void TestUsage() {
-      var runner = new Problem23Runner();
-
-      
+    public void TestExecute() {
+      var finder = new AbundantNumberFinder();
+// Assert.That(finder.Check(12), Is.True);
+// Assert.That(finder.Check(11), Is.False);
     }
   }
 }
