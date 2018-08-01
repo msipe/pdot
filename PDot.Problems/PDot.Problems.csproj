@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Problems\Problem20\Problem20Runner.cs" />
     <Compile Include="Problems\Problem23\AbundantNumberFinder.cs" />
+    <Compile Include="Problems\Problem23\FactorialFinder.cs" />
     <Compile Include="Problems\Problem23\Problem23Runner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
