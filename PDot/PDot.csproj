@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PDot.Problems\PDot.Problems.csproj">
+      <Project>{AA38DC5F-04F8-42DA-95E1-3A48FCE5FDA1}</Project>
+      <Name>PDot.Problems</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

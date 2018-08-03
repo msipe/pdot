@@ -16,9 +16,7 @@ namespace PDot.Problems.Problems.Problem23 {
         result = result + factors[x];
       }
 
-      Console.WriteLine(result);
-
-      if (result < incoming) {
+      if (result <= incoming) {
         return false;
       }
       return true;
