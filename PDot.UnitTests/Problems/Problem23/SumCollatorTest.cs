@@ -14,10 +14,8 @@ namespace PDot.UnitTests.Problems.Problem23
     [Test]
     public void TestUsage() {
       var collator = new SumCollator();
-
-      
-
-      
+      var result = collator.Collate(new[] { 1, 2, 3 });
+      Assert.That(result, Is.EqualTo(new[] { 3, 4, 5 }));     
     }
 
     [SetUp]
