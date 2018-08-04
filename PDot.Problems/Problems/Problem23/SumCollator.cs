@@ -17,7 +17,7 @@ namespace PDot.Problems.Problems.Problem23 {
           }          
         }
       }
-      return sums.ToArray();
+      return sums.OrderBy((s) => (s)).ToArray();
     }
   }
 }
