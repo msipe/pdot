@@ -12,7 +12,11 @@ namespace PDot.UnitTests.Problems.Problem23
   public class Problem23Tests {
     [Test]
     public void TestUsage() {
-      var runner = new Problem23Runner();
+      var collator = new SumCollator();
+      var factorFinder = new FactorialFinder();
+      var abundantNumberFinder = new AbundantNumberFinder(factorFinder);
+
+      var runner = new Problem23Runner(collator, abundantNumberFinder);
 
       
     }

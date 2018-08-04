@@ -9,8 +9,8 @@ namespace PDot{
   class Program {
     static void Main(string[] args) {
      // var problem = args[0];
-      var runner = new Problem23Runner();
-      runner.Execute();
+      //var runner = new Problem23Runner();
+      //runner.Execute();
 
 
     }
