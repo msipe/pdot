@@ -11,8 +11,8 @@ namespace PDot.Problems.Problems.Problem23
       mSumCollator = sumCollator;
       mAbundantFinder = abundantFinder;
     }
-    public void Execute() {
-      
+    public int[] Execute(int max) {
+      return new[] { 10 };
     }
 
 

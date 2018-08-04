@@ -18,7 +18,10 @@ namespace PDot.UnitTests.Problems.Problem23
 
       var runner = new Problem23Runner(collator, abundantNumberFinder);
 
-      
+      var result = runner.Execute(100);
+
+      Assert.That(result, Is.EqualTo(new [] { 10 }));
+
     }
   }
 }
