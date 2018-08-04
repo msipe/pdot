@@ -5,8 +5,6 @@ namespace PDot.UnitTests.Problems.Problem23
 {
   [TestFixture]
   public class SumCollatorTest {
-    
-    
     [TestCase(new[] { 1}, new int[] {})]
     [TestCase(new[] { 1, 2 }, new[] { 3 })]
     [TestCase(new[] { 12, 189, 1767, 1723, 90 }, new[] { 102, 201, 279, 1735, 1779, 1813, 1857, 1912, 1956, 3490})]
