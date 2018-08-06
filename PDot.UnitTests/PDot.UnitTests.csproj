@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Problems\Problem20\Problem20Tests.cs" />
+    <Compile Include="Problems\Problem23\PossibleSumsFinderTest.cs" />
     <Compile Include="Problems\Problem23\FactorialFinderTest.cs" />
     <Compile Include="Problems\Problem23\AbundantNumberFinderTest.cs" />
     <Compile Include="Problems\Problem23\SumCollatorTest.cs" />
