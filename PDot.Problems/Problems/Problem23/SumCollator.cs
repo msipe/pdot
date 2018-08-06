@@ -12,7 +12,9 @@ namespace PDot.Problems.Problems.Problem23 {
       for (var x = 0; x < abundantNumbers.Length; x++) {
         for (var y = x; y < abundantNumbers.Length; y++) {
           var sum = abundantNumbers[x] + abundantNumbers[y];
-          sums.Add(sum);
+          if (sum < 28124) {
+            sums.Add(sum);
+          }
         }
       }
       return sums.OrderBy((s) => (s)).ToArray();

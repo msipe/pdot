@@ -7,17 +7,27 @@ using System.Threading.Tasks;
 namespace PDot.Problems.Problems.Problem23
 {
   public class Problem23Runner {
-    public Problem23Runner(SumCollator sumCollator, AbundantNumberFinder abundantFinder) {
-      mSumCollator = sumCollator;
-      mAbundantFinder = abundantFinder;
+    public Problem23Runner(Driver driver) {
+      mDriver = driver;
     }
     public int[] Execute(int max) {
-      return new[] { 10 };
+      return FindMysteryNumbers(max);
+    }
+
+    private int[] FindMysteryNumbers(int max) {
+      var possibleSums = mDriver.FindSumsForAbundantNumbers(max);
+      var result = new List<int>();
+      for (var x = 0; x < max; x++) {
+        if (!possibleSums.Contains(x)) {
+          result.Add(x);
+        }
+      }
+
+      return result.ToArray();
     }
 
 
 
-    private SumCollator mSumCollator;
-    private AbundantNumberFinder mAbundantFinder;
+    private Driver mDriver;
   }
 }

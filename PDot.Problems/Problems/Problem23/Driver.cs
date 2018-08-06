@@ -11,15 +11,16 @@ namespace PDot.Problems.Problems.Problem23
       mAbundantFinder = abundantFinder;
       mSumCollator = sumCollator;
     }
+
     public int[] FindSumsForAbundantNumbers(int max) {
-      var sums = new List<int>();
+      var abundantNums = new List<int>();
       for (var x = 0; x <= max; x++) {
         if (mAbundantFinder.Check(x)) {
-          sums.Add(x);
+          abundantNums.Add(x);
         }
       }
 
-      return mSumCollator.Collate(sums.ToArray());
+      return mSumCollator.Collate(abundantNums.ToArray());
     }
 
     private AbundantNumberFinder mAbundantFinder;
