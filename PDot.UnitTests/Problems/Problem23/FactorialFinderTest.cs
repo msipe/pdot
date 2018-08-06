@@ -1,10 +1,5 @@
 ﻿using NUnit.Framework;
 using PDot.Problems.Problems.Problem23;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PDot.UnitTests.Problems.Problem23
 {
@@ -18,6 +13,7 @@ namespace PDot.UnitTests.Problems.Problem23
       Assert.That(finder.FindFactors(5), Is.EqualTo(new[] {1}));
       Assert.That(finder.FindFactors(11), Is.EqualTo(new[] {1}));
       Assert.That(finder.FindFactors(81), Is.EqualTo(new[] {1,3,9,27}));
+      Assert.That(finder.FindFactors(0), Is.EqualTo(new int[] {}));
     }
   }
 }
