@@ -4,6 +4,7 @@
       mMysteryNumberFinder = mysterNumberFinder;
       mValueCounter = valueCounter;
     }
+
     public string Execute(int max) {
       return mValueCounter
                .Tally(mMysteryNumberFinder.Execute(max))

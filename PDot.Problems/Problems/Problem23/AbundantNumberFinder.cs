@@ -5,6 +5,7 @@ namespace PDot.Problems.Problems.Problem23 {
     public AbundantNumberFinder (FactorFinder finder) {
       mFinder = finder;
     }
+
     public bool Check(int incoming) {
       return mFinder.FindFactors(incoming).Sum() > incoming;
     }

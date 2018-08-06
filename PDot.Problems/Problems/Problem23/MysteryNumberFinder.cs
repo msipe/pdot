@@ -7,6 +7,7 @@ namespace PDot.Problems.Problems.Problem23
     public MysteryNumberFinder(PossibleSumsFinder driver) {
       mDriver = driver;
     }
+
     public int[] Execute(int max) {
       return FindMysteryNumbers(max);
     }
