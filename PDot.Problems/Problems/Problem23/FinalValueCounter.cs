@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PDot.Problems.Problems.Problem23 {
+﻿namespace PDot.Problems.Problems.Problem23 {
   public class FinalValueCounter {
     public int Tally(int[] incoming) {
       var result = 0;
