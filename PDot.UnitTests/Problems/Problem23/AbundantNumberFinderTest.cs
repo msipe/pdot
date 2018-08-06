@@ -14,8 +14,10 @@ namespace PDot.UnitTests.Problems.Problem23
     public void TestExecute() {
       var factorFinder = new FactorFinder();
       var finder = new AbundantNumberFinder(factorFinder);
-      Assert.That(finder.Check(12), Is.True);
+      Assert.That(finder.Check(0), Is.False);
+      Assert.That(finder.Check(1), Is.False);
       Assert.That(finder.Check(11), Is.False);
+      Assert.That(finder.Check(12), Is.True);
       Assert.That(finder.Check(13), Is.False);
     }
   }
