@@ -10,16 +10,7 @@ namespace PDot.Problems.Problems.Problem23 {
       mFinder = finder;
     }
     public bool Check(int incoming) {
-      var factors = mFinder.FindFactors(incoming);
-      var result = 0;
-      for (var x = 0; x < factors.Length; x++) {
-        result = result + factors[x];
-      }
-
-      if (result <= incoming) {
-        return false;
-      }
-      return true;
+      return mFinder.FindFactors(incoming).Sum() > incoming;
     }
 
     private FactorialFinder mFinder;
