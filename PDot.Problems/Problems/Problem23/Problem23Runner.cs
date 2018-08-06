@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PDot.Problems.Problems.Problem23
 {
   public class Problem23Runner {
-    public Problem23Runner(Driver driver) {
+    public Problem23Runner(PossibleSumsFinder driver) {
       mDriver = driver;
     }
     public int[] Execute(int max) {
@@ -28,6 +28,6 @@ namespace PDot.Problems.Problems.Problem23
 
 
 
-    private Driver mDriver;
+    private PossibleSumsFinder mDriver;
   }
 }

@@ -10,7 +10,7 @@ namespace PDot.UnitTests.Problems.Problem23
       var collator = new SumCollator();
       var factorFinder = new FactorialFinder();
       var abundantNumberFinder = new AbundantNumberFinder(factorFinder);
-      var driver = new Driver(abundantNumberFinder, collator);
+      var driver = new PossibleSumsFinder(abundantNumberFinder, collator);
       var runner = new Problem23Runner(driver);
       var result = runner.Execute(24);
 

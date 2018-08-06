@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace PDot.Problems.Problems.Problem23
 {
-  public class Driver {
-    public Driver(AbundantNumberFinder abundantFinder, SumCollator sumCollator) {
+  public class PossibleSumsFinder {
+    public PossibleSumsFinder(AbundantNumberFinder abundantFinder, SumCollator sumCollator) {
       mAbundantFinder = abundantFinder;
       mSumCollator = sumCollator;
     }
