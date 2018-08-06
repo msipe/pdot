@@ -5,6 +5,7 @@ namespace PDot.UnitTests.Problems.Problem23
 {
   [TestFixture]
   public class Problem23RunnerTest {
+    [Test]
     public void TestUsage() {
       var collator = new SumCollator();
       var valueCounter = new FinalValueCounter();
@@ -13,6 +14,7 @@ namespace PDot.UnitTests.Problems.Problem23
       var possibleSumsFinder = new PossibleSumsFinder(abundantNumberFinder, collator);
       var p23Runner = new Problem23Runner(possibleSumsFinder, valueCounter);
 
+      Assert.That(p23Runner.Execute(25), Is.EqualTo("hey"));
     }
   }
 }

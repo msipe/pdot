@@ -10,7 +10,7 @@ namespace PDot.Problems.Problems.Problem23 {
       mPossibleSumsFinder = possibleSumsFinder;
       mValueCounter = valueCounter;
     }
-    public string Execute() {
+    public string Execute(int max) {
       return "hey";
     }
 
