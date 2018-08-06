@@ -10,9 +10,15 @@ namespace PDot.UnitTests.Problems.Problem23
     [TestCase(new[] { 12, 189, 1767, 1723, 90 }, new[] { 24, 102, 180, 201, 279, 378, 1735, 1779, 1813, 1857, 1912, 1956, 3446, 3490, 3534})]
     [TestCase(new[] { 1, 2, 3 }, new[] {2, 3, 4, 4, 5, 6 })]
     public void TestUsage(int[] incomingNums, int[] expected) {
-      var collator = new SumCollator();
-      var result = collator.Collate(incomingNums);
+      var result = mCollator.Collate(incomingNums);
       Assert.That(result, Is.EqualTo(expected));     
     }
+
+    [SetUp]
+    public void DoSetup() {
+      mCollator = new SumCollator();
+    }
+
+    private SumCollator mCollator;
   }
 }

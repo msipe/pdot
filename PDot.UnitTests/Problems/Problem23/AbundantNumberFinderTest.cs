@@ -12,7 +12,7 @@ namespace PDot.UnitTests.Problems.Problem23
   class AbundantNumberFinderTest {
     [Test]
     public void TestExecute() {
-      var factorFinder = new FactorialFinder();
+      var factorFinder = new FactorFinder();
       var finder = new AbundantNumberFinder(factorFinder);
       Assert.That(finder.Check(12), Is.True);
       Assert.That(finder.Check(11), Is.False);

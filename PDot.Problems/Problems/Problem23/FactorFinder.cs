@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace PDot.Problems.Problems.Problem23
 {
-  public class FactorialFinder  {
+  public class FactorFinder  {
     public int[] FindFactors(int incoming) {
       var results = new List<int>();
       for (var x = 1; x <= Math.Sqrt(incoming); x++) {

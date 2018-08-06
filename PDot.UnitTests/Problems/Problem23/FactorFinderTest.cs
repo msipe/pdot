@@ -4,10 +4,10 @@ using PDot.Problems.Problems.Problem23;
 namespace PDot.UnitTests.Problems.Problem23
 {
   [TestFixture]
-  class FactorialFinderTest {
+  class FactorFinderTest {
     [Test]
     public void TestFindFactorials() {
-      var finder = new FactorialFinder();
+      var finder = new FactorFinder();
       Assert.That(finder.FindFactors(12), Is.EqualTo(new[] {1,2,3,4,6}));
       Assert.That(finder.FindFactors(144), Is.EqualTo(new[] {1,2,3,4,6,8,9,12,16,18,24,36,48,72}));
       Assert.That(finder.FindFactors(5), Is.EqualTo(new[] {1}));

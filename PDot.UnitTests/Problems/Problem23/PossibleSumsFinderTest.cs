@@ -7,7 +7,7 @@ namespace PDot.UnitTests.Problems.Problem23
   class PossibleSumsFinderTest {
     [Test]
     public void TestFindPossibleSums() {
-      var factorFinder = new FactorialFinder();
+      var factorFinder = new FactorFinder();
       var abundantNumberFinder = new AbundantNumberFinder(factorFinder);
       var collator = new SumCollator();
       var possibleSumsFinder = new PossibleSumsFinder(abundantNumberFinder, collator);

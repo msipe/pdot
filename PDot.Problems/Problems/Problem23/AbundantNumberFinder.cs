@@ -2,13 +2,13 @@
 
 namespace PDot.Problems.Problems.Problem23 {
   public class AbundantNumberFinder  {
-    public AbundantNumberFinder (FactorialFinder finder) {
+    public AbundantNumberFinder (FactorFinder finder) {
       mFinder = finder;
     }
     public bool Check(int incoming) {
       return mFinder.FindFactors(incoming).Sum() > incoming;
     }
 
-    private FactorialFinder mFinder;
+    private FactorFinder mFinder;
   }
 }

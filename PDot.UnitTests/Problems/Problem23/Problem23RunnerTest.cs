@@ -9,7 +9,7 @@ namespace PDot.UnitTests.Problems.Problem23
     public void TestUsage() {
       var collator = new SumCollator();
       var valueCounter = new FinalValueCounter();
-      var factorFinder = new FactorialFinder();
+      var factorFinder = new FactorFinder();
       var abundantNumberFinder = new AbundantNumberFinder(factorFinder);
       var possibleSumsFinder = new PossibleSumsFinder(abundantNumberFinder, collator);
       var mysteryNumFinder = new MysteryNumberFinder(possibleSumsFinder);
