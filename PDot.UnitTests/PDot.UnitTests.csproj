@@ -77,7 +77,7 @@
     <Compile Include="Problems\Problem23\FactorialFinderTest.cs" />
     <Compile Include="Problems\Problem23\AbundantNumberFinderTest.cs" />
     <Compile Include="Problems\Problem23\SumCollatorTest.cs" />
-    <Compile Include="Problems\Problem23\Problem23Tests.cs" />
+    <Compile Include="Problems\Problem23\MysteryNumberFinderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

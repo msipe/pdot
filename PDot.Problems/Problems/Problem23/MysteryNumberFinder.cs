@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace PDot.Problems.Problems.Problem23
 {
-  public class Problem23Runner {
-    public Problem23Runner(PossibleSumsFinder driver) {
+  public class MysteryNumberFinder {
+    public MysteryNumberFinder(PossibleSumsFinder driver) {
       mDriver = driver;
     }
     public int[] Execute(int max) {
