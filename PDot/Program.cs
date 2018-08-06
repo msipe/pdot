@@ -14,7 +14,7 @@ namespace PDot{
     private static void SolveProblem(string problem, string input) {
       switch (problem) {
         case "20":
-          new Problem20Runner().Execute(BigInteger.Parse(input));
+          Console.WriteLine(new Problem20Runner().Execute(BigInteger.Parse(input)));
           break;
         case "23":
           ExecuteProblem23(int.Parse(input));
@@ -34,7 +34,7 @@ namespace PDot{
       var mysteryNumberFinder = new MysteryNumberFinder(possibleSumFinder);
       var problem23Runner = new Problem23Runner(mysteryNumberFinder, valueCounter);
 
-      problem23Runner.Execute(max);
+      Console.WriteLine(problem23Runner.Execute(max));
 
     }
   }
