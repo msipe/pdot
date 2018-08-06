@@ -47,7 +47,6 @@
     <Compile Include="Problems\Problem23\FinalValueCounter.cs" />
     <Compile Include="Problems\Problem23\PossibleSumsFinder.cs" />
     <Compile Include="Problems\Problem23\FactorialFinder.cs" />
-    <Compile Include="Problems\Problem23\IAbundantNumberFinder.cs" />
     <Compile Include="Problems\Problem23\MysteryNumberFinder.cs" />
     <Compile Include="Problems\Problem23\SumCollator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

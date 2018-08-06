@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace PDot.Problems.Problems.Problem23 {
-  public class AbundantNumberFinder:IAbundantNumberFinder  {
+  public class AbundantNumberFinder  {
     public AbundantNumberFinder (FactorialFinder finder) {
       mFinder = finder;
     }
