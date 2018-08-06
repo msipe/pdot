@@ -72,7 +72,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problems\Problem20\Problem20Tests.cs" />
+    <Compile Include="Problems\Problem20\Problem20RunnerTests.cs" />
     <Compile Include="Problems\Problem23\Problem23RunnerTest.cs" />
     <Compile Include="Problems\Problem23\PossibleSumsFinderTest.cs" />
     <Compile Include="Problems\Problem23\FactorFinderTest.cs" />
